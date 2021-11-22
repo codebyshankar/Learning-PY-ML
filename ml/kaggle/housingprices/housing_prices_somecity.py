@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error
 
 # Path of the file to read
-iowa_file_path = '../input/home-data-for-ml-course/train.csv'
+iowa_file_path = 'somecitytrain.csv'
 home_data = pd.read_csv(iowa_file_path)
 
 # what columns are there and decide on y
